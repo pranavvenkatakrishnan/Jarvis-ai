@@ -1,4 +1,4 @@
-"""LangGraph orchestration for the Grounded Research Agent.
+"""LangGraph orchestration for the Jarvis.
 
 Graph:
 
