@@ -1,4 +1,5 @@
-streamlit>=1.36
+# --- app ---
+streamlit>=1.39          # 1.39 adds the st-key-* container classes the UI styles
 langgraph>=0.2.20
 langchain-core>=0.3.0
 langsmith>=0.1.100
@@ -6,3 +7,11 @@ groq>=0.11.0
 requests>=2.32
 python-dotenv>=1.0.1
 pydantic>=2.8
+
+# --- local development ---
+watchdog>=4.0            # faster, more reliable Streamlit file reloading
+
+# --- tests ---
+pytest>=8.2
+pytest-cov>=5.0
+responses>=0.25          # stub the HN / Open-Meteo / Wikipedia calls in tests
